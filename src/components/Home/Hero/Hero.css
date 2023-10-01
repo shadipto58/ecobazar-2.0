@@ -1,0 +1,35 @@
+.slick-track {
+    margin: 0;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-dots {
+    bottom: 100px !important;
+}
+
+
+
+.slick-dots li button {
+    height: 15px !important;
+    width: 15px !important;
+    color: #00B207 !important;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #00B207 !important;
+    background: transparent;
+    height: 15px;
+    width: 15px;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.slick-dots li button:before {
+    font-size: 20px !important;
+    color: #999 !important;
+}
